@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pengalaman Saya Selama SMA</title>
+</head>
+
+<body>
+
+<h1>Pengalaman Saya Selama SMA</h1>
+
+<p>Masa SMA adalah masa yang sangat berkesan dalam hidup saya.</p>
+
+<p>Saya belajar banyak hal seperti kerja sama, tanggung jawab, dan disiplin.</p>
+
+<p>Saya juga mendapatkan banyak teman baru.</p>
+
+<p>Selain belajar, saya mengikuti kegiatan sekolah.</p>
+
+<p>Pengalaman tersebut sangat berharga bagi saya.</p>
+
+</body>
+</html>
