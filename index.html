@@ -8,20 +8,59 @@
 body{
     margin:0;
     padding:0;
-    background-image:url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    font-family:Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d");
+    background-size: cover;
+    background-position: center;
     color:white;
-    text-align:center;
 }
 
+/* animasi masuk */
 .kotak{
-    background:rgba(0,0,0,0.6);
+    width:80%;
+    margin:80px auto;
     padding:40px;
-    margin:100px;
-    border-radius:10px;
+    border-radius:20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    animation: fadeIn 2s ease;
+}
+
+/* judul */
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* paragraf */
+p{
+    text-align:justify;
+    line-height:1.8;
+}
+
+/* gambar */
+img{
+    margin-top:20px;
+    border-radius:15px;
+    transition: transform 0.3s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* animasi */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 </style>
 
@@ -32,15 +71,15 @@ body{
 <div class="kotak">
 <h1>Pengalaman Saya Selama SMA</h1>
 
-<p>Selama masa SMA saya mendapatkan banyak pengalaman berharga baik dalam belajar maupun dalam kegiatan sekolah.</p>
+<p>Selama masa SMA saya mendapatkan banyak pengalaman berharga baik dalam belajar maupun dalam kegiatan sekolah. Lingkungan sekolah membantu saya berkembang menjadi pribadi yang lebih mandiri.</p>
 
-<p>Saya belajar bekerja sama dengan teman, mengikuti kegiatan sekolah, dan mengembangkan kemampuan diri.</p>
+<p>Saya belajar bekerja sama dengan teman, mengikuti kegiatan sekolah, dan mengembangkan kemampuan diri. Pengalaman ini membuat saya lebih percaya diri dalam menghadapi tantangan.</p>
 
-<p>Selain belajar di kelas, saya juga mengikuti berbagai kegiatan yang menambah pengalaman.</p>
+<p>Selain belajar di kelas, saya juga mengikuti berbagai kegiatan yang menambah pengalaman dan memperluas wawasan saya.</p>
 
-<p>Masa SMA memberikan banyak kenangan dan pelajaran yang tidak akan saya lupakan.</p>
+<p>Masa SMA memberikan banyak kenangan indah bersama teman-teman yang tidak akan saya lupakan sepanjang hidup.</p>
 
-<p>Pengalaman tersebut membantu saya menjadi pribadi yang lebih baik dan lebih percaya diri.</p>
+<p>Semua pengalaman tersebut membantu saya menjadi pribadi yang lebih baik dan siap menghadapi masa depan.</p>
 
 <img src="sma.jpg" width="400">
 
